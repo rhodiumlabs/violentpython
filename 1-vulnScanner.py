@@ -24,7 +24,7 @@ def checkVulns(banner, filename):
         if line.strip('\n') in banner: #compare it against our banner
             print '[+] Server is vulnerable: ' +
                 banner.strip('\n')
-                                    #print if there is a match
+                                    #print if there is a match 
 
 def main():
 
